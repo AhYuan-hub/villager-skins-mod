@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "mod_5c31df19",
+  "version": "${version}",
+  "name": "村民换肤",
+  "description": "给每位村民选择本地 PNG 玩家皮肤，支持普通与 Alex 细手臂、交易页入口和蹲下右键换肤。仅客户端显示。",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["cn.blockforge.generated.mod5c31df19.VillagerSkinsClient"]
+  },
+  "mixins": [
+    {
+      "config": "villager_skins.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
