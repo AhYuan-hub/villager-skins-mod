@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "cn.blockforge.generated.mod5c31df19.mixin",
+  "package": "villageskins.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
     "EntityRendererFactoriesMixin",
